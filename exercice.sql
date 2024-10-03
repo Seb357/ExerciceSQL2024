@@ -10,3 +10,8 @@ SELECT * FROM Campagnes ORDER BY budget,
 
 SELECT * FROM Campagnes ORDER BY debut_campagne
 LIMIT 5,
+
+SELECT COUNT(*) FROM Campagnes,
+
+
+
