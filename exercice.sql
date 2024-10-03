@@ -13,5 +13,5 @@ LIMIT 5,
 
 SELECT COUNT(*) FROM Campagnes,
 
-
+SELECT AVG(age) FROM Clients,
 
