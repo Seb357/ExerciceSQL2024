@@ -16,3 +16,7 @@ SELECT COUNT(*) FROM Campagnes,
 SELECT AVG(age) FROM Clients,
 
 SELECT SUM(budget) FROM Campagnes,
+
+SELECT nom_campagne, budget FROM Campagnes ORDER BY budget DESC
+LIMIT 1,
+
