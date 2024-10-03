@@ -24,3 +24,7 @@ SELECT COUNT(client_id), nom_segment FROM Clients, Segments
 INNER JOIN Segments ON Clients.segment_id = Segments.segment_id
 GROUP BY nom_segment,
 
+SELECT Campagnes.campagne_id, SUM(Performances.revenus_generes) AS revenu_total
+FROM Campagnes c
+JOIN Performances p ON c.campagne_id = p.campagne_id
+GROUP BY campagne_id,
