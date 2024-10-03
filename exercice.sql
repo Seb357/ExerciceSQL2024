@@ -15,3 +15,4 @@ SELECT COUNT(*) FROM Campagnes,
 
 SELECT AVG(age) FROM Clients,
 
+SELECT SUM(budget) FROM Campagnes,
