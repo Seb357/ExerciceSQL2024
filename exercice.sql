@@ -4,3 +4,6 @@ SELECT nom, email FROM Clients,
 
 SELECT nom FROM Clients WHERE age>40,
 
+SELECT nom, age FROM Clients WHERE location= 'Paris' AND age BETWEEN 25 and 35,
+
+
